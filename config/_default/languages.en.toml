@@ -17,8 +17,10 @@ title = "LosPampa"
    name = "LosPampa"
    image = "img/los_logo-no-bkg.png"
    headline = "The PAMPA's research group"
-   bio = "A little bit about you"
-#   links = [
+   # bio = "A little bit about you"
+   links = [ 
+    { instagram = "https://www.instagram.com/los_unipampa/" }
+  ]
 #     { email = "mailto:hello@your_domain.com" },
 #     { link = "https://link-to-some-website.com/" },
 #     { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },

@@ -38,6 +38,17 @@
 #  pageRef = "categories/awesome"
 #  weight = 20
 
+#[[subnavigation]]
+#  name = "My Awesome Category"
+#  pre = "github"
+#  pageRef = "publications/awesome"
+#  weight = 20
+
+#[[subnavigation]]
+#  name = "An interesting topic"
+#  pageRef = "publications/interesting-topic"
+#  weight = 10
+
 #[[main]]
 #  name = "Categories"
 #  pageRef = "categories"
@@ -47,6 +58,8 @@
 #  name = "Tags"
 #  pageRef = "tags"
 #  weight = 30
+
+####################################################################
 
 [[main]]
   name = "About"
@@ -67,6 +80,12 @@
   name = "Publications"
   PageRef = "publications"
   weight = 13
+
+[[main]]
+  identifier = "instagram"
+  pre = "instagram"
+  url = "https://www.instagram.com/los_unipampa/"
+  weight = 100
 
 
 # -- Footer Menu --
